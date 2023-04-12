@@ -7,8 +7,8 @@
 *   You must use console.log(...) to print all output
 *   You are not allowed to use var
 */
-const DIC = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+const dic = ['C is fun', 'Python is cool', 'Javascript is amazing'];
 
 for (let i = 0; i <= 2; i++) {
-  console.log(DIC[i]);
+  console.log(dic[i]);
 }
