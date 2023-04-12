@@ -6,8 +6,9 @@
 *   You are not allowed to use var
 *   You are not allowed to use try/catch
 */
-if (isNaN(process.argv[2])) {
+const conv = parseInt(process.argv[2]);
+if (isNaN(conv) {
   console.log('Not a number');
 } else {
-  console.log('My number: ' + parseInt(process.argv[2]));
+  console.log('My number: ' + conv');
 }

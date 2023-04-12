@@ -4,8 +4,9 @@
 *   If no arguments are passed to the script, print “No argument”
 *   You must use console.log(...) to print all output
 */
-if (process.argv[2] === undefined) {
+const first_arg = process.argv[2];
+if (first_arg === undefined) {
   console.log('No argument');
 } else {
-  console.log(process.argv[2]);
+  console.log(first_arg);
 }
