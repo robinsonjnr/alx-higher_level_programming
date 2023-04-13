@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
 *   a class Rectangle that defines a rectangle:
 
@@ -10,7 +11,6 @@
 *    Create an instance method called rotate() that exchanges the width and the height of the rectangle
 *    Create an instance method called double() that multiples the width and the height of the rectangle by 2
 */
-#!/usr/bin/node
 
 class Rectangle {
   constructor (w, h) {

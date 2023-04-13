@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
 *   a class Rectangle that defines a rectangle:
 *   use the class notation for defining your class
@@ -5,7 +6,6 @@
 *   Initialize the instance attribute width with the value of w
 *   Initialize the instance attribute height with the value of h
 */
-#!/usr/bin/node
 
 class Rectangle {
   constructor (w, h) {

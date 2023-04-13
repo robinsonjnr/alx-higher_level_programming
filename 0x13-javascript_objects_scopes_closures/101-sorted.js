@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
 *   a script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
 
@@ -7,7 +8,6 @@
         A value is the list of user ids
 *    Print the new dictionary at the end
 */
-#!/usr/bin/node
 
 const originalList = require('./100-data').list;
 console.log(originalList);

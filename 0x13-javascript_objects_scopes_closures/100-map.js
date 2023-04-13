@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
 *   a script that imports an array and computes a new array.
 
@@ -6,7 +7,6 @@
 *    A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
 *    Print both the initial list and the new list
 */
-#!/usr/bin/node
 
 const originalList = require('./100-data').list;
 console.log(originalList);

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
 *   a class Rectangle that defines a rectangle:
 
@@ -8,7 +9,6 @@
 *    If w or h is equal to 0 or not a positive integer, create an empty object
 *    Create an instance method called print() that prints the rectangle using the character X
 */
-#!/usr/bin/node
 
 class Rectangle {
   constructor (w, h) {
