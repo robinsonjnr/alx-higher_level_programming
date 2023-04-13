@@ -7,11 +7,13 @@
 *   You must use console.log(...) to print all output
 *   You are not allowed to use var
 */
-if (isNaN(process.argv[2])) {
+const arg = parseInt(process.argv[2]);
+
+if (isNaN(arg)) {
   console.log('Missing size');
 } else {
-  for (let i = 0; i <= parseInt(process.argv[2]); i++) {
-            console.log(x.repeat(parseInt(process.argv[2])));
+  for (let i = 0; i <= arg; i++) {
+            console.log('x'.repeat(arg));
     }
   }
 }

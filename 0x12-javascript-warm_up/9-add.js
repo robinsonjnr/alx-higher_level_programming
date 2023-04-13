@@ -7,7 +7,9 @@
 *   You must use console.log(...) to print all output
 */
 function add(a, b) {
-result = parseInt(a) + parseInt(b);
+x = parseInt(a);
+y = parseInt(b);
+result = x + y;
 return result;
 }
 

@@ -6,6 +6,7 @@
 * Otherwise, print “Arguments found”
 */
 const arg = process.argv.length;
+
 if (arg === 2) {
   console.log('No argument');
 } else if (arg === 3) {
