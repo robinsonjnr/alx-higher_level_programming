@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a script that changes the name of a State object from the database hbtn_0e_6_usa
      Your script should take 3 arguments: mysql username, mysql password and database name
@@ -7,8 +8,6 @@
      Change the name of the State where id = 2 to New Mexico
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import create_engine

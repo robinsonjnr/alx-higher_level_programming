@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa
      Your script should take 4 arguments: mysql username, mysql password, database name and state name to search
@@ -10,8 +11,6 @@
      If no state has the name you searched for, display Not found
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import create_engine

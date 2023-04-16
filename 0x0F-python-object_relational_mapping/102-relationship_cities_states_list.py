@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 a script that lists all City objects from the database hbtn_0e_101_usa
 
@@ -10,8 +11,6 @@ a script that lists all City objects from the database hbtn_0e_101_usa
     Results must be displayed as they are in the example below
     Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from relationship_state import Base, State
 from relationship_city import City

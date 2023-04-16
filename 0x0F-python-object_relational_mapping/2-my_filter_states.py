@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa
    where name matches the argument.
@@ -10,7 +11,6 @@
      Results must be displayed as they are in the example below
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
 
 import MySQLdb
 from sys import argv

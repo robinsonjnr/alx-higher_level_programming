@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a Python file similar to model_state.py named model_city.py that contains the class definition of a City.
      City class:
@@ -20,8 +21,6 @@
      Results must be display as they are in the example below (<state name>: (<city id>) <city name>)
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from model_state import Base, State
 from model_city import City

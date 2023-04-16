@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a script that adds the State object “Louisiana” to the database hbtn_0e_6_usa
      Your script should take 3 arguments: mysql username, mysql password and database name
@@ -7,8 +8,6 @@
      Print the new states.id after creation
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import create_engine

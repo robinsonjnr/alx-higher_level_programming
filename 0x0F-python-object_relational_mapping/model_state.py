@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 #   a python file that contains the class definition of a State and an instance Base = declarative_base():
 #     State class:
@@ -10,7 +11,6 @@
 #     Your script should connect to a MySQL server running on localhost at port 3306
 #     WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine)
 """
-#!/usr/bin/python3
 
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base

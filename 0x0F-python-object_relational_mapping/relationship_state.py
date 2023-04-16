@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Improve the files model_city.py and model_state.py, and save them as relationship_city.py and relationship_state.py:
 
@@ -15,8 +16,6 @@ Write a script that creates the State “California” with the City “San Fran
     You must use the cities relationship for all State objects
     Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sqlalchemy.orm import relationship
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base

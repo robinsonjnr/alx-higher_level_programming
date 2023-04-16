@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
    a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
      Your script should take 3 arguments: mysql username, mysql password and database name
@@ -8,8 +9,6 @@
      The results must be displayed as they are in the example below
      Your code should not be executed when imported
 """
-#!/usr/bin/python3
-
 from sys import argv
 from model_state import Base, State
 from sqlalchemy import create_engine
