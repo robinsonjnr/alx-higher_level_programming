@@ -1,4 +1,3 @@
 #!/bin/bash
-# Take URL as input and send request and store response in a variable
-curl -s $1 | wc -c | awk -v size=$(curl -sI $1 | awk
-
+#Sends a request to that URL, and displays the size of the body of the response
+curl -sI "$1" | grep Content-Length: | cut -d " " -f 2
